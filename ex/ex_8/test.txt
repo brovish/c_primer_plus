@@ -1,0 +1,8 @@
+Hello friends,
+
+Welcome back again!
+
+Last time we have a long post about Disassembling the SQL Server parser so today we have a very short post...
+Do you need to change the name of the instance of SQL Server?
+
+Easy!

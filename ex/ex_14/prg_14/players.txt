@@ -1,0 +1,14 @@
+1 Rory McBrain 5 3 2 1
+4 Jessie Joubat 5 2 1 1
+1 Rory McBrain 5 2 1 1
+2 Mikky Lauden 3 3 2 1
+5 Mary Rosiie 6 2 3 2
+6 String Falcon 6 5 3 1
+7 Broad Ridge 5 6 2 1
+8 Raul Paul 7 1 2 1
+6 String Falcon 3 3 2 1
+2 Mikky Lauden 3 3 2 1
+2 Mikky Lauden 2 5 1 2
+8 Raul Paul 1 2 2 1
+1 Rory McBrain 5 3 2 1
+19 Mary Christmas 5 3 2 1

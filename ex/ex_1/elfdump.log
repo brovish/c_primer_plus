@@ -1,0 +1,1131 @@
+
+elf header:
+
+	e_ident: ELFCLASS64 ELFDATA2LSB ELFOSABI_FREEBSD
+	e_type: ET_EXEC
+	e_machine: EM_X86_64
+	e_version: EV_CURRENT
+	e_entry: 0x2017c0
+	e_phoff: 64
+	e_shoff: 12832
+	e_flags: 0
+	e_ehsize: 64
+	e_phentsize: 56
+	e_phnum: 11
+	e_shentsize: 64
+	e_shnum: 36
+	e_shstrndx: 34
+
+program header:
+
+entry: 0
+	p_type: PT_PHDR
+	p_offset: 64
+	p_vaddr: 0x200040
+	p_paddr: 0x200040
+	p_filesz: 616
+	p_memsz: 616
+	p_flags: PF_R
+	p_align: 8
+
+entry: 1
+	p_type: PT_INTERP
+	p_offset: 680
+	p_vaddr: 0x2002a8
+	p_paddr: 0x2002a8
+	p_filesz: 21
+	p_memsz: 21
+	p_flags: PF_R
+	p_align: 1
+
+entry: 2
+	p_type: PT_LOAD
+	p_offset: 0
+	p_vaddr: 0x200000
+	p_paddr: 0x200000
+	p_filesz: 1972
+	p_memsz: 1972
+	p_flags: PF_R
+	p_align: 4096
+
+entry: 3
+	p_type: PT_LOAD
+	p_offset: 1984
+	p_vaddr: 0x2017c0
+	p_paddr: 0x2017c0
+	p_filesz: 1200
+	p_memsz: 1200
+	p_flags: PF_X|PF_R
+	p_align: 4096
+
+entry: 4
+	p_type: PT_LOAD
+	p_offset: 3184
+	p_vaddr: 0x202c70
+	p_paddr: 0x202c70
+	p_filesz: 376
+	p_memsz: 376
+	p_flags: PF_W|PF_R
+	p_align: 4096
+
+entry: 5
+	p_type: PT_LOAD
+	p_offset: 3560
+	p_vaddr: 0x203de8
+	p_paddr: 0x203de8
+	p_filesz: 112
+	p_memsz: 152
+	p_flags: PF_W|PF_R
+	p_align: 4096
+
+entry: 6
+	p_type: PT_DYNAMIC
+	p_offset: 3224
+	p_vaddr: 0x202c98
+	p_paddr: 0x202c98
+	p_filesz: 336
+	p_memsz: 336
+	p_flags: PF_W|PF_R
+	p_align: 8
+
+entry: 7
+	p_type: PT_DYNAMIC
+	p_offset: 3184
+	p_vaddr: 0x202c70
+	p_paddr: 0x202c70
+	p_filesz: 376
+	p_memsz: 912
+	p_flags: PF_R
+	p_align: 1
+
+entry: 8
+	p_type: PT_NULL
+	p_offset: 1736
+	p_vaddr: 0x2006c8
+	p_paddr: 0x2006c8
+	p_filesz: 44
+	p_memsz: 44
+	p_flags: PF_R
+	p_align: 4
+
+entry: 9
+	p_type: PT_LOAD
+	p_offset: 0
+	p_vaddr: 0
+	p_paddr: 0
+	p_filesz: 0
+	p_memsz: 0
+	p_flags: PF_W|PF_R
+	p_align: 0
+
+entry: 10
+	p_type: PT_NOTE
+	p_offset: 704
+	p_vaddr: 0x2002c0
+	p_paddr: 0x2002c0
+	p_filesz: 72
+	p_memsz: 72
+	p_flags: PF_R
+	p_align: 4
+
+section header:
+
+entry: 0
+	sh_name: 
+	sh_type: SHT_NULL
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 0
+	sh_size: 0
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 0
+	sh_entsize: 0
+
+entry: 1
+	sh_name: .interp
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2002a8
+	sh_offset: 680
+	sh_size: 21
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 2
+	sh_name: .note.tag
+	sh_type: SHT_NOTE
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2002c0
+	sh_offset: 704
+	sh_size: 72
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 4
+	sh_entsize: 0
+
+entry: 3
+	sh_name: .dynsym
+	sh_type: SHT_DYNSYM
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x200308
+	sh_offset: 776
+	sh_size: 312
+	sh_link: 8
+	sh_info: 1
+	sh_addralign: 8
+	sh_entsize: 24
+
+entry: 4
+	sh_name: .gnu.version
+	sh_type: SHT_SUNW(GNU)_versym
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x200440
+	sh_offset: 1088
+	sh_size: 26
+	sh_link: 3
+	sh_info: 0
+	sh_addralign: 2
+	sh_entsize: 2
+
+entry: 5
+	sh_name: .gnu.version_r
+	sh_type: SHT_SUNW(GNU)_verneed
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x20045c
+	sh_offset: 1116
+	sh_size: 32
+	sh_link: 8
+	sh_info: 1
+	sh_addralign: 4
+	sh_entsize: 0
+
+entry: 6
+	sh_name: .gnu.hash
+	sh_type: SHT_GNU_HASH
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x200480
+	sh_offset: 1152
+	sh_size: 44
+	sh_link: 3
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 7
+	sh_name: .hash
+	sh_type: SHT_HASH
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2004ac
+	sh_offset: 1196
+	sh_size: 112
+	sh_link: 3
+	sh_info: 0
+	sh_addralign: 4
+	sh_entsize: 4
+
+entry: 8
+	sh_name: .dynstr
+	sh_type: SHT_STRTAB
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x20051c
+	sh_offset: 1308
+	sh_size: 129
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 9
+	sh_name: .rela.dyn
+	sh_type: SHT_RELA
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2005a0
+	sh_offset: 1440
+	sh_size: 48
+	sh_link: 3
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 24
+
+entry: 10
+	sh_name: .rela.plt
+	sh_type: SHT_RELA
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2005d0
+	sh_offset: 1488
+	sh_size: 168
+	sh_link: 3
+	sh_info: 23
+	sh_addralign: 8
+	sh_entsize: 24
+
+entry: 11
+	sh_name: .rodata
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x200678
+	sh_offset: 1656
+	sh_size: 80
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 12
+	sh_name: .eh_frame_hdr
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2006c8
+	sh_offset: 1736
+	sh_size: 44
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 4
+	sh_entsize: 0
+
+entry: 13
+	sh_name: .eh_frame
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC
+	sh_addr: 0x2006f8
+	sh_offset: 1784
+	sh_size: 188
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 14
+	sh_name: .text
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC|SHF_EXECINSTR
+	sh_addr: 0x2017c0
+	sh_offset: 1984
+	sh_size: 1032
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 16
+	sh_entsize: 0
+
+entry: 15
+	sh_name: .init
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC|SHF_EXECINSTR
+	sh_addr: 0x201bc8
+	sh_offset: 3016
+	sh_size: 19
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 4
+	sh_entsize: 0
+
+entry: 16
+	sh_name: .fini
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC|SHF_EXECINSTR
+	sh_addr: 0x201bdc
+	sh_offset: 3036
+	sh_size: 14
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 4
+	sh_entsize: 0
+
+entry: 17
+	sh_name: .plt
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_ALLOC|SHF_EXECINSTR
+	sh_addr: 0x201bf0
+	sh_offset: 3056
+	sh_size: 128
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 16
+	sh_entsize: 0
+
+entry: 18
+	sh_name: .ctors
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x202c70
+	sh_offset: 3184
+	sh_size: 16
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 19
+	sh_name: .dtors
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x202c80
+	sh_offset: 3200
+	sh_size: 16
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 20
+	sh_name: .jcr
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x202c90
+	sh_offset: 3216
+	sh_size: 8
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 21
+	sh_name: .dynamic
+	sh_type: SHT_DYNAMIC
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x202c98
+	sh_offset: 3224
+	sh_size: 336
+	sh_link: 8
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 16
+
+entry: 22
+	sh_name: .data
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x203de8
+	sh_offset: 3560
+	sh_size: 25
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 23
+	sh_name: .got.plt
+	sh_type: SHT_PROGBITS
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x203e08
+	sh_offset: 3592
+	sh_size: 80
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 8
+	sh_entsize: 0
+
+entry: 24
+	sh_name: .bss
+	sh_type: SHT_NOBITS
+	sh_flags: SHF_WRITE|SHF_ALLOC
+	sh_addr: 0x203e60
+	sh_offset: 3672
+	sh_size: 32
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 16
+	sh_entsize: 0
+
+entry: 25
+	sh_name: .comment
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 3672
+	sh_size: 633
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 1
+
+entry: 26
+	sh_name: .debug_str
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 4305
+	sh_size: 806
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 1
+
+entry: 27
+	sh_name: .debug_loc
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 5111
+	sh_size: 1440
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 28
+	sh_name: .debug_abbrev
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 6551
+	sh_size: 511
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 29
+	sh_name: .debug_info
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 7062
+	sh_size: 2233
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 30
+	sh_name: .debug_ranges
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 9295
+	sh_size: 272
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 31
+	sh_name: .debug_line
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 9567
+	sh_size: 1053
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 32
+	sh_name: .debug_aranges
+	sh_type: SHT_PROGBITS
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 10620
+	sh_size: 128
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 33
+	sh_name: .symtab
+	sh_type: SHT_SYMTAB
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 10752
+	sh_size: 1152
+	sh_link: 35
+	sh_info: 34
+	sh_addralign: 8
+	sh_entsize: 24
+
+entry: 34
+	sh_name: .shstrtab
+	sh_type: SHT_STRTAB
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 11904
+	sh_size: 326
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+entry: 35
+	sh_name: .strtab
+	sh_type: SHT_STRTAB
+	sh_flags: 
+	sh_addr: 0
+	sh_offset: 12230
+	sh_size: 601
+	sh_link: 0
+	sh_info: 0
+	sh_addralign: 1
+	sh_entsize: 0
+
+interp:
+	/libexec/ld-elf.so.1
+
+note (.note.tag):
+	FreeBSD 1202505 (NT_FREEBSD_ABI_TAG)
+	FreeBSD 0 (NT_FREEBSD_FEATURE_CTL)
+	FreeBSD 0 (NT_FREEBSD_NOINIT_TAG)
+
+symbol table (.dynsym):
+
+entry: 0
+	st_name: 
+	st_value: 0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 0
+
+entry: 1
+	st_name: _init_tls
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 2
+	st_name: atexit
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 3
+	st_name: exit
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 4
+	st_name: _Jv_RegisterClasses
+	st_value: 0
+	st_size: 0
+	st_info: STT_NOTYPE STB_WEAK
+	st_shndx: 0
+
+entry: 5
+	st_name: __srget
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 6
+	st_name: getc
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 7
+	st_name: printf
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 8
+	st_name: scanf
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 9
+	st_name: __progname
+	st_value: 0x203de8
+	st_size: 8
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 22
+
+entry: 10
+	st_name: environ
+	st_value: 0x203e60
+	st_size: 8
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 24
+
+entry: 11
+	st_name: __isthreaded
+	st_value: 0x203e70
+	st_size: 4
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 24
+
+entry: 12
+	st_name: __stdinp
+	st_value: 0x203e78
+	st_size: 8
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 24
+
+relocation with addend (.rela.dyn):
+
+entry: 0
+	r_offset: 0x203e70
+	r_info: 5
+	r_addend: 0
+
+entry: 1
+	r_offset: 0x203e78
+	r_info: 5
+	r_addend: 0
+
+relocation with addend (.rela.plt):
+
+entry: 0
+	r_offset: 0x203e20
+	r_info: 7
+	r_addend: 0
+
+entry: 1
+	r_offset: 0x203e28
+	r_info: 7
+	r_addend: 0
+
+entry: 2
+	r_offset: 0x203e30
+	r_info: 7
+	r_addend: 0
+
+entry: 3
+	r_offset: 0x203e38
+	r_info: 7
+	r_addend: 0
+
+entry: 4
+	r_offset: 0x203e40
+	r_info: 7
+	r_addend: 0
+
+entry: 5
+	r_offset: 0x203e48
+	r_info: 7
+	r_addend: 0
+
+entry: 6
+	r_offset: 0x203e50
+	r_info: 7
+	r_addend: 0
+
+dynamic:
+
+entry: 0
+	d_tag: DT_NEEDED
+	d_val: libc.so.7
+
+entry: 1
+	d_tag: DT_DEBUG
+
+entry: 2
+	d_tag: DT_RELA
+	d_val: 2098592
+
+entry: 3
+	d_tag: DT_RELASZ
+	d_val: 48
+
+entry: 4
+	d_tag: DT_RELAENT
+	d_val: 24
+
+entry: 5
+	d_tag: DT_JMPREL
+	d_ptr: 0x2005d0
+
+entry: 6
+	d_tag: DT_PLTRELSZ
+	d_val: 168
+
+entry: 7
+	d_tag: DT_PLTGOT
+	d_ptr: 0x203e08
+
+entry: 8
+	d_tag: DT_PLTREL
+	d_val: 7
+
+entry: 9
+	d_tag: DT_SYMTAB
+	d_ptr: 0x200308
+
+entry: 10
+	d_tag: DT_SYMENT
+	d_val: 24
+
+entry: 11
+	d_tag: DT_STRTAB
+	d_ptr: 0x20051c
+
+entry: 12
+	d_tag: DT_STRSZ
+	d_val: 129
+
+entry: 13
+	d_tag: DT_GNU_HASH
+
+entry: 14
+	d_tag: DT_HASH
+	d_ptr: 0x2004ac
+
+entry: 15
+	d_tag: DT_INIT
+	d_ptr: 0x201bc8
+
+entry: 16
+	d_tag: DT_FINI
+	d_ptr: 0x201bdc
+
+entry: 17
+	d_tag: DT_GNU_VERSYM
+
+entry: 18
+	d_tag: DT_VERNEED
+
+entry: 19
+	d_tag: DT_VERNEEDNUM
+
+entry: 20
+	d_tag: DT_NULL
+
+symbol table (.symtab):
+
+entry: 0
+	st_name: 
+	st_value: 0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 0
+
+entry: 1
+	st_name: crt1.c
+	st_value: 0
+	st_size: 0
+	st_info: STT_FILE STB_LOCAL
+	st_shndx: 65521
+
+entry: 2
+	st_name: abitag
+	st_value: 0x2002c0
+	st_size: 24
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 2
+
+entry: 3
+	st_name: crt_feature_ctl
+	st_value: 0x2002d8
+	st_size: 24
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 2
+
+entry: 4
+	st_name: crt_noinit_tag
+	st_value: 0x2002f0
+	st_size: 24
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 2
+
+entry: 5
+	st_name: finalizer
+	st_value: 0x2019e0
+	st_size: 91
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 14
+
+entry: 6
+	st_name: handle_static_init
+	st_value: 0x2018d0
+	st_size: 258
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 14
+
+entry: 7
+	st_name: __rela_iplt_end
+	st_value: 0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 0
+
+entry: 8
+	st_name: __rela_iplt_start
+	st_value: 0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 0
+
+entry: 9
+	st_name: crtstuff.c
+	st_value: 0
+	st_size: 0
+	st_info: STT_FILE STB_LOCAL
+	st_shndx: 65521
+
+entry: 10
+	st_name: __CTOR_LIST__
+	st_value: 0x202c70
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 18
+
+entry: 11
+	st_name: __DTOR_LIST__
+	st_value: 0x202c80
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 19
+
+entry: 12
+	st_name: __JCR_LIST__
+	st_value: 0x202c90
+	st_size: 0
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 20
+
+entry: 13
+	st_name: __do_global_dtors_aux
+	st_value: 0x201a40
+	st_size: 55
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 14
+
+entry: 14
+	st_name: __do_global_dtors_aux.completed
+	st_value: 0x203e00
+	st_size: 1
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 22
+
+entry: 15
+	st_name: __do_global_dtors_aux.p
+	st_value: 0x203df8
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 22
+
+entry: 16
+	st_name: frame_dummy
+	st_value: 0x201a80
+	st_size: 34
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 14
+
+entry: 17
+	st_name: __dso_handle
+	st_value: 0x203df0
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 22
+
+entry: 18
+	st_name: ex_1.c
+	st_value: 0
+	st_size: 0
+	st_info: STT_FILE STB_LOCAL
+	st_shndx: 65521
+
+entry: 19
+	st_name: crtstuff.c
+	st_value: 0
+	st_size: 0
+	st_info: STT_FILE STB_LOCAL
+	st_shndx: 65521
+
+entry: 20
+	st_name: __CTOR_END__
+	st_value: 0x202c78
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 18
+
+entry: 21
+	st_name: __DTOR_END__
+	st_value: 0x202c88
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 19
+
+entry: 22
+	st_name: __FRAME_END__
+	st_value: 0x2006f8
+	st_size: 4
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 13
+
+entry: 23
+	st_name: __JCR_END__
+	st_value: 0x202c90
+	st_size: 8
+	st_info: STT_OBJECT STB_LOCAL
+	st_shndx: 20
+
+entry: 24
+	st_name: __do_global_ctors_aux
+	st_value: 0x201b90
+	st_size: 54
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 14
+
+entry: 25
+	st_name: _DYNAMIC
+	st_value: 0x202c98
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 21
+
+entry: 26
+	st_name: __fini_array_end
+	st_value: 0x2017c0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 14
+
+entry: 27
+	st_name: __fini_array_start
+	st_value: 0x2017c0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 14
+
+entry: 28
+	st_name: __init_array_end
+	st_value: 0x2017c0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 14
+
+entry: 29
+	st_name: __init_array_start
+	st_value: 0x2017c0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 14
+
+entry: 30
+	st_name: __preinit_array_end
+	st_value: 0x2017c0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 14
+
+entry: 31
+	st_name: __preinit_array_start
+	st_value: 0x2017c0
+	st_size: 0
+	st_info: STT_NOTYPE STB_LOCAL
+	st_shndx: 14
+
+entry: 32
+	st_name: _fini
+	st_value: 0x201bdc
+	st_size: 0
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 16
+
+entry: 33
+	st_name: _init
+	st_value: 0x201bc8
+	st_size: 0
+	st_info: STT_FUNC STB_LOCAL
+	st_shndx: 15
+
+entry: 34
+	st_name: __progname
+	st_value: 0x203de8
+	st_size: 8
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 22
+
+entry: 35
+	st_name: _init_tls
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 36
+	st_name: _start
+	st_value: 0x2017c0
+	st_size: 263
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 14
+
+entry: 37
+	st_name: atexit
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 38
+	st_name: environ
+	st_value: 0x203e60
+	st_size: 8
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 24
+
+entry: 39
+	st_name: exit
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 40
+	st_name: main
+	st_value: 0x201ab0
+	st_size: 220
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 14
+
+entry: 41
+	st_name: _Jv_RegisterClasses
+	st_value: 0
+	st_size: 0
+	st_info: STT_NOTYPE STB_WEAK
+	st_shndx: 0
+
+entry: 42
+	st_name: __isthreaded
+	st_value: 0x203e70
+	st_size: 4
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 24
+
+entry: 43
+	st_name: __srget
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 44
+	st_name: __stdinp
+	st_value: 0x203e78
+	st_size: 8
+	st_info: STT_OBJECT STB_GLOBAL
+	st_shndx: 24
+
+entry: 45
+	st_name: getc
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 46
+	st_name: printf
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
+
+entry: 47
+	st_name: scanf
+	st_value: 0
+	st_size: 0
+	st_info: STT_FUNC STB_GLOBAL
+	st_shndx: 0
