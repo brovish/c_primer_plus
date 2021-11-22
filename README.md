@@ -44,3 +44,8 @@ At the time of this writing, the standard is available as a $285 electronic down
 This book introduces you to the C++ language (the C++11 standard) and to the philosophy of object-oriented programming.
 - Stroustrup, Bjarne. **The C++ Programming Language, Fourth Edition.** Reading, MA: Addison-Wesley, 2013.
 This book, by the creator of C++, presents the C++11 standard.
+
+
+[The C Library Reference Guide by Eric Huss © Copyright 1997 Eric Huss Release 1](https://web.archive.org/web/20150118141700/http://www.acm.uiuc.edu:80/webmonkeys/book/c_guide/index.html)
+
+[The Development of the C Language Dennis M. Ritchie Bell Labs/Lucent Technologies Murray Hill, NJ 07974 USA](https://web.archive.org/web/20080329114221/http://cm.bell-labs.com/cm/cs/who/dmr/chist.html)
