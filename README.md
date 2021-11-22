@@ -23,7 +23,7 @@ This is an expanded book version of the Internet FAQ.
 This slim, out-of-print classic draws on examples from other texts to illustrate the do’s and don’ts of clear, effective programming.
 
 
-- Knuth, Donald E. ****The Art of Computer Programming**, Volume 1 (Fundamental Algorithms), Third Edition . Reading, MA: Addison-Wesley, 1997.
+- Knuth, Donald E. **The Art of Computer Programming**, Volume 1 (Fundamental Algorithms), Third Edition . Reading, MA: Addison-Wesley, 1997.
 This non-slim classic standard reference examines data representation and algorithm analysis in great detail. It is advanced and mathematical in nature. Volume 2 (Seminumerical Algorithms, 1997) includes an extensive discussion of pseudorandom numbers. Volume 3 (Sorting and Searching, 1998), as the name suggests, examines sorting and searching. Examples are given in pseudocode and assembly language.
 
 - Sedgewick, Robert. **Algorithms in C, Parts 1-4: Fundamentals, Data Structures, Sorting, Searching, Third Edition.** Reading, MA: Addison-Wesley Professional, 1997
